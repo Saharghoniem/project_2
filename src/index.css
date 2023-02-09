@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.border {
+  border: 3px solid deeppink;
+}
+
+@media (max-width: 900px) {
+  .myList {
+    position: fixed;
+    background-color: #121212;
+    top: 59px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+  }
+}
